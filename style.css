@@ -123,10 +123,19 @@ ul li:nth-child(5) a {
 .header button{
     color: #fff;
     background: #009f8b;
-    padding: 12px 32px;
+    padding: 15px 36px;
     border: none;
-    font-size: 14px;
+    font-size: 24px;
     margin-top: 40px;
+}
+.header button:hover{
+    color: #009f8b;
+    background: #fff;
+    padding: 15px 36px;
+    border: none;
+    font-size: 24px;
+    margin-top: 40px;
+    transition: 0.3s ease;
 }
 
 a{
